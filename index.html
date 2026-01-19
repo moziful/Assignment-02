@@ -12,14 +12,14 @@
     <title>Assignment 02</title>
 </head>
 
-<body class="text-[16px] font-[Inter]">
+<body class="text-[16px] text-white font-[Inter]">
     <header>
         <nav
-            class="navbar flex px-[200px] py-[16px] justify-between items-center bg-[#1A0B2E] text-white box-border border-b border-[#412567]">
+            class="navbar flex px-[200px] py-[16px] justify-between items-center bg-[#1A0B2E] box-border border-b border-[#412567]">
             <div class="logo">
                 <a href="./index.html"><img class="w-[220px]" src="./assets/logo.png"></a>
             </div>
-            <div class="links flex w-[220px] justify-between opacity-90">
+            <div class="links flex w-[220px] justify-between opacity-90 font-medium">
                 <a href="">About</a>
                 <a href="">Episodes</a>
                 <a href="">Host</a>
@@ -43,10 +43,11 @@
                     </p>
                     <img src="./assets/microphone.png" alt="">
                 </div>
-                <div class="w-full flex flex-col gap-[24px] text-white text-center">
+                <div class="w-full flex flex-col gap-[24px] text-center">
                     <div class="flex flex-col gap-[8px]">
                         <h3 class="text-[3.75rem] font-extrabold">TechWave</h3>
-                        <p class="opacity-90">Your daily dose of tech insights, productivity hacks, and personal growth
+                        <p class="opacity-90 text-center">Your daily dose of tech insights, productivity hacks, and
+                            personal growth
                         </p>
                     </div>
                     <div class="flex justify-center items-center gap-[8px]">
@@ -70,8 +71,8 @@
         <section class="about bg-[#1A0B2E] px-[200px] pt-[50px] pb-[120px]">
             <div class="flex flex-col gap-[80px]">
                 <div class="flex flex-col justify-center gap-[16px]">
-                    <h2 class="text-[4rem] text-center font-bold text-white">About the Podcast</h2>
-                    <p class="text-white text-center opacity-80">
+                    <h2 class="text-[3rem] text-center font-bold">About the Podcast</h2>
+                    <p class="text-white text-center opacity-80 leading-[1.75rem]">
                         TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
                         <br>
                         We break down complex topics into digestible insights, explore productivity strategies that
@@ -87,19 +88,19 @@
                 <div class="grid grid-cols-4 justify-between gap-[80px]">
                     <div class="flex flex-col text-center">
                         <h3 class="text-[3rem] text-[#00FF88] font-extrabold">150K+</h3>
-                        <p class="opacity-80 text-white">MONTHLY LISTENERS</p>
+                        <p class="opacity-80">MONTHLY LISTENERS</p>
                     </div>
                     <div class="flex flex-col text-center">
                         <h3 class="text-[3rem] text-[#00FF88] font-extrabold">200+</h3>
-                        <p class="opacity-80 text-white">EPISODES PUBLISHED</p>
+                        <p class="opacity-80">EPISODES PUBLISHED</p>
                     </div>
                     <div class="flex flex-col text-center">
                         <h3 class="text-[3rem] text-[#00FF88] font-extrabold">4.9★</h3>
-                        <p class="opacity-80 text-white">AVERAGE RATINGS</p>
+                        <p class="opacity-80">AVERAGE RATINGS</p>
                     </div>
                     <div class="flex flex-col text-center">
                         <h3 class="text-[3rem] text-[#00FF88] font-extrabold">50+</h3>
-                        <p class="opacity-80 text-white">INDUSTRY EXPERTS</p>
+                        <p class="opacity-80">INDUSTRY EXPERTS</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,54 @@
 
             </div>
         </section>
-        <section class="why-choose border-2 border-red-500 bg-[#1A0B2E] px-[200px] pt-[50px] pb-[120px]">
+        <section class="why-choose bg-[#230E3D] px-[200px] py-[120px]">
+            <div class="flex flex-col justify-center gap-[16px]">
+                <h2 class="text-[3rem] text-center font-bold">Why Choose TechWave</h2>
+                <div class="grid grid-cols-3 gap-[30px]">
+                    <div class="flex flex-col gap-[16px] justify-center row-span-2 p-[40px] bg-[#350855] rounded-2xl">
+                        <img class="w-[60px]" src="./assets/headphones.svg" alt="">
+
+                        <h4 class="font-bold text-[1.5rem]">Premium Audio Quality</h4>
+                        <p class="opacity-60 leading-[1.5rem]">
+                            Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[16px] justify-center col-span-2 p-[40px] bg-[#350855] rounded-2xl">
+                        <img class="w-[60px]" src="./assets/phone.svg" alt="">
+                        <h4 class="font-bold text-[1.5rem]">Mobile Friendly</h4>
+                        <p class="opacity-60 leading-[1.5rem]">
+                            Listen on the go with seamless mobile experience and offline downloads.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[16px] justify-center col-span-2 p-[40px] bg-[#350855] rounded-2xl">
+                        <img class="w-[60px]" src="./assets/globe.svg" alt="">
+                        <h4 class="font-bold text-[1.5rem]">Global Community</h4>
+                        <p class="opacity-60 leading-[1.5rem]">
+                            Connect with tech enthusiasts from over 120 countries worldwide.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[16px] justify-center col-span-2 p-[40px] bg-[#350855] rounded-2xl">
+                        <img class="w-[60px]" src="./assets/fast.svg" alt="">
+                        <h4 class="font-bold text-[1.5rem]">Exclusive Interviews</h4>
+                        <p class="opacity-60 leading-[1.5rem]">
+                            Get unprecedented access to industry titans, startup founders, and tech visionaries. Our
+                            host secures exclusive conversations you won't find anywhere else, diving deep into their
+                            journeys, failures, and success strategies.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[16px] justify-center p-[40px] bg-[#350855] rounded-2xl">
+                        <img class="w-[60px]" src="./assets/book.svg" alt="">
+                        <h4 class="font-bold text-[1.5rem]">Rich Resources</h4>
+                        <p class="opacity-60 leading-[1.5rem]">
+                            Access show notes, transcripts, and additional learning materials for every episode.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-choose border-2 border-gray-500 bg-[#230E3D] px-[200px] py-[120px]">
 
         </section>
     </main>
@@ -115,5 +163,7 @@
 
     </footer>
 </body>
+
+
 
 </html>
