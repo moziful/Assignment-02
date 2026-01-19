@@ -5,24 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>Assignment 02</title>
 </head>
 
-<body>
+<body class="text-[16px] font-[Inter]">
     <header>
-        <nav class="navbar px-[200px] bg-[#1A0B2E] text-white ">
+        <nav
+            class="navbar flex px-[200px] py-[16px] justify-between items-center bg-[#1A0B2E] text-white box-border border-b border-[#412567]">
             <div class="logo">
-                TechWave
+                <a href="./index.html"><img class="w-[220px]" src="./assets/logo.png"></a>
             </div>
-            <div class="links">
-                <ol>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episodes</a></li>
-                    <li><a href="">Host</a></li>
-                </ol>
+            <div class="links flex w-[220px] justify-between">
+                <a href="">About</a>
+                <a href="">Episodes</a>
+                <a href="">Host</a>
             </div>
             <div class="subscribe">
-                <button>Subscribe</button>
+                <button
+                    class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
             </div>
         </nav>
     </header>
