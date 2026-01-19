@@ -34,31 +34,34 @@
         </nav>
         <section
             class="hero-section flex justify-center items-center bg-[url('./assets/hero-bg.png')] bg-center w-full h-[760px]">
-            <div class="hero-section-container flex justify-center items-center border-2 border-white">
-                <div class="flex flex-col gap-[40px] justify-center items-center border-2 border-red-500">
-                    <div
-                        class="flex justify-center items-center w-[350px] h-[350px] bg-[url('./assets/hero-circle.png')] bg-no-repeat border-2 border-white">
-                        <img src="./assets/microphone.png" alt="" border-2 border-white>
+            <div class="hero-section-container flex flex-col gap-[40px] justify-center items-center">
+                <div
+                    class="relative flex justify-center items-center w-[350px] h-[350px] bg-[url('./assets/hero-circle.png')] bg-no-repeat">
+                    <p
+                        class="absolute top-0 right-10 px-[16px] py-[8px] bg-[#00FF88] w-[75px] [box-shadow:0_0_10px_rgba(0,255,136,1)] font-semibold rounded-full">
+                        NEW
+                    </p>
+                    <img src="./assets/microphone.png" alt="">
+                </div>
+                <div class="w-full flex flex-col gap-[24px] text-white text-center">
+                    <div class="flex flex-col gap-[8px]">
+                        <h3 class="text-[3.75rem] font-extrabold">TechWave</h3>
+                        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                     </div>
-                    <div class="w-full flex flex-col gap-[24px] text-white text-center border-2 border-white">
-                        <div class="flex flex-col gap-[8px]">
-                            <h3 class="text-[3rem]">TechWave</h3>
-                            <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                        </div>
-                        <div class="flex justify-center items-center gap-[8px]">
-                            <button
-                                class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer">
-                                <i class="text-[1.25rem] fa-brands fa-spotify"></i>
-                                Listen On Spotify
-                            </button>
-                            <button
-                                class="px-[16px] py-[12px] flex items-center gap-[4px] text-[#00FF88] font-semibold rounded-full border-2 border-[#00FF88] cursor-pointer">
-                                <i class="text-[1.25rem] fa-brands fa-spotify"></i>
-                                Listen On Spotify
-                            </button>
-                        </div>
+                    <div class="flex justify-center items-center gap-[8px]">
+                        <button
+                            class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer">
+                            <i class="text-[1.25rem] fa-brands fa-spotify"></i>
+                            Listen On Spotify
+                        </button>
+                        <button
+                            class="px-[16px] py-[12px] flex items-center gap-[4px] text-[#00FF88] font-semibold rounded-full border-2 border-[#00FF88] cursor-pointer">
+                            <i class="text-[1.25rem] fa-regular fa-envelope"></i>
+                            Subscribe
+                        </button>
                     </div>
                 </div>
+
             </div>
         </section>
     </header>
