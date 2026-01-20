@@ -16,21 +16,22 @@
 <body class="text-[16px] text-white font-[Inter]">
     <header>
         <nav
-            class="navbar flex px-[200px] py-[16px] justify-between items-center bg-[#1A0B2E] box-border border-b border-[#412567]">
+            class="navbar flex px-[20px] md:px-[200px] py-[16px] justify-between items-center bg-[#1A0B2E] box-border border-b border-[#412567]">
             <div class="logo">
-                <a href="./index.html"><img class="w-[220px]" src="./assets/logo.png"></a>
+                <a href="./index.html"><img class="w-[140px] md:w-[220px]" src="./assets/logo.png"></a>
             </div>
-            <div class="links flex w-[220px] justify-between opacity-90 font-medium">
+            <div class="hidden md:block flex w-[220px] justify-between opacity-90 font-medium">
                 <a href="">About</a>
                 <a href="">Episodes</a>
                 <a href="">Host</a>
             </div>
-            <div class="subscribe">
+            <div>
                 <button
-                    class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer">
+                    class="hidden md:flex px-[16px] py-[12px] items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer hover:brightness-110 transition duration-200">
                     Subscribe
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
+                <img class="w-[24px] md:hidden" src="./assets/hamburger-menu.png" alt="">
             </div>
         </nav>
         <section
@@ -39,10 +40,10 @@
                 <div
                     class="relative flex justify-center items-center w-[220px] h-[220px] md:w-[350px] md:h-[350px] bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-cover mt-[50px]">
                     <p
-                        class="absolute top-0 right-0 mdright-10 px-[16px] py-[8px] bg-[#00FF88] w-[75px] [box-shadow:0_0_10px_rgba(0,255,136,1)] font-semibold rounded-full">
+                        class="absolute top-0 right-0 md:right-10 px-[16px] py-[8px] bg-[#00FF88] w-[75px] [box-shadow:0_0_10px_rgba(0,255,136,1)] font-semibold rounded-full">
                         NEW
                     </p>
-                    <img class="w-[80px] mdw-[120px]" src="./assets/microphone.png" alt="">
+                    <img class="w-[80px] md:w-[120px]" src="./assets/microphone.png" alt="">
                 </div>
                 <div class="w-full flex flex-col gap-[24px] text-center">
                     <div class="flex flex-col gap-[8px]">
@@ -53,12 +54,12 @@
                     </div>
                     <div class="flex justify-center items-center gap-[8px]">
                         <button
-                            class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer">
+                            class="px-[16px] py-[12px] flex items-center gap-[4px] font-semibold rounded-full bg-[linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8)] cursor-pointer hover:brightness-110 transition duration-200">
                             <i class="text-[1.25rem] fa-brands fa-spotify"></i>
                             Listen On Spotify
                         </button>
                         <button
-                            class="px-[16px] py-[12px] flex items-center gap-[4px] text-[#00FF88] font-semibold rounded-full border-2 border-[#00FF88] cursor-pointer">
+                            class="px-[16px] py-[12px] flex items-center gap-[4px] text-[#00FF88] font-semibold rounded-full border-2 border-[#00FF88] cursor-pointer hover:brightness-75 transition duration-200">
                             <i class="text-[1.25rem] fa-regular fa-envelope"></i>
                             Subscribe
                         </button>
@@ -226,19 +227,20 @@
                         </p>
                         <span class="justify-center md:justify-start flex gap-[8px]">
                             <div
-                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72]">
+                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72] hover:bg-[#533C72] cursor-pointer">
                                 <img class="w-[16px] h-[16px]" src="./assets/linkedin.svg" alt="">
                             </div>
                             <div
-                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72]">
+                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72] hover:bg-[#533C72] cursor-pointer">
                                 <img class="w-[16px] h-[16px]" src="./assets/x.svg" alt="">
                             </div>
                             <div
-                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72]">
-                                <img class="w-[16px] h-[16px]" src="./assets/instagram.svg" alt="">
+                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72] hover:bg-[#533C72] cursor-pointer">
+                                <img class="w-[16px] h-[16px] hover:brightness-110 transition duration-200"
+                                    src="./assets/instagram.svg" alt="">
                             </div>
                             <div
-                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72]">
+                                class="flex justify-center items-center w-[40px] h-[40px] rounded-full border border-[#533C72] hover:bg-[#533C72] cursor-pointer">
                                 <img class="w-[16px] h-[16px]" src="./assets/youtube.svg" alt="">
                             </div>
                         </span>
